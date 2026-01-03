@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-import mhassanif # introducing bug - non existent module
 
 app = Flask(__name__)
 
