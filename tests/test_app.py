@@ -1,5 +1,6 @@
 from myapp.app import app
 
+
 def test_about_page():
     # Use Flask's test client
     client = app.test_client()
